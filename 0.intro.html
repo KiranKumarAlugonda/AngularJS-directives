@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Angular Directives</title>
+<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+
+</head>
+
+<body>    
+    
+    <div class="container">
+
+        <div class="page-header">
+            <img src="img/logo.png" style="margin-bottom: 20px;">
+            <h2>Introduction to Angular Directives</h2>
+        </div>
+
+        <h3>What are directives?</h3>
+
+        <p><strong>Directives allow us to control and manipulate the DOM.</strong> Just like jQuery's $(document).ready() used to allow us to attach functionality to DOM objects on traditional websites, Angular's directives allow us to do the same for our async-loaded single-page apps/sites.</p>
+        <p>Directives can be invoked with custom tag element names, attributes, class names, and comments.</p>
+
+
+        <hr>
+        <h4>How they work</h4>
+        <p>As soon as a view (set of DOM elements) is loaded, Angular searches through every element and looks for matches to our app's directives. Once it finds a match, it proceeds to:</p>
+        <ol>
+            <li>Compile a 'template' so it can be quickly referenced/used/re-used</li>
+            <li>Binds/links controller model attributes with the template</li>
+            <li>Renders the template as browser-friendly HTML code with JavaScript event/data bindings in place</li>
+        </ol>
+
+        <hr>
+        <h4>Examples:</h4>
+        <ul>
+            <li><a href="1.enter-submit.html">'Enter to Submit' Directive</a></li>
+            <li><a href="2.editable-text.html">'Editable Text', combined Directives</a></li>
+            <li><a href="3.piano-keys.html">Repeated Directives</a></li>
+        </ul>
+
+        <hr>
+        <h4>Great References:</h4>
+        <ul>
+            <li><a href="http://www.egghead.io/" target="_blank">Egghead.io (John Lindquist)</a></li>
+            <li><a href="http://www.bennadel.com/" target="_blank">Ben Nadal's Blog</a></li>
+        </ul>
+
+        <br><br><br>
+
+    </div>
+    
+
+</body>
+</html>

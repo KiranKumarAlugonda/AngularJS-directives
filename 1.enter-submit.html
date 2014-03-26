@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Angular Directives</title>
+<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+
+</head>
+
+<body>    
+    
+    <div class="container">
+
+        <div class="page-header">
+            <h2>'Enter to Submit' Directive</h2>
+        </div>
+
+        <div ng-app="MyApp" ng-controller="MyCtrl">
+            
+            <label>Shorthand:</label>
+            <input type="text" class="span4" enter-submit="enterPressed()" ng-model="inputValue"> {{ inputValueSubmitted }}
+
+            <label>Link function:</label>
+            <input type="text" class="span4" enter-submit-link="enterPressed2()" ng-model="inputValue2"> {{ inputValue2Submitted }}
+
+        </div>
+
+    </div>
+    
+    <script type="text/javascript" src="js/vendor/angular/angular.min.js"></script>
+    <script type="text/javascript" src="js/1.enter-submit.js"></script>
+    
+
+</body>
+</html>
